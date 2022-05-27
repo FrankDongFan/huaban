@@ -9,3 +9,31 @@
 #body{
     overflow: hidden;
 }
+.colors{
+    min-height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.pencontainer {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-height: 40px;
+    width: 100%;
+}
+.colorscontainer{
+    background-color: #ececec;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.eraser{
+    height: 40px;
+    width: 10%;
+}
